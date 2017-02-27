@@ -1,0 +1,13 @@
+Source: smartpower
+Section: devel
+Priority: optional
+Maintainer: Donghoon Shin <dhs.shin@samsung.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: https://github.com/polarcat/smartpower.git
+
+Package: smartpower
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: smartpower
+ This work is motivated by the need of having command line tool that can stream data from ODROID Smart Power power supply.

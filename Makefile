@@ -7,4 +7,7 @@ $(OUT): $(SRC)
 clean:
 	-rm -f $(OUT)
 
+install: $(OUT)
+	cp $(OUT) $(DESTDIR)/usr/bin
+
 $(OUT): Makefile
